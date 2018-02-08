@@ -1,0 +1,2 @@
+Very basic HTML form with a Ruby CGI back-end to get the data from the form and convert the units.
+The units used are totally nonsense and were made up by the professor.
