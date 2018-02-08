@@ -1,0 +1,2 @@
+Very basic node server that takes in mp3 or jpg filenames and serves them. For some unknown reason
+the specification asked to send an advertisement 1/3 of the time. This is aptly named "advert.jpg".
