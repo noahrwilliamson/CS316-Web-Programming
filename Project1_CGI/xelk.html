@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<! Author: Noah Williamson>
+<! CS316 Project 1>
+<html>
+    <head>
+        <title>Project 1</title>
+        <style>
+            form{ display: table; }
+            p{ display:table-row; }
+            label{ display:table-cell; }
+            input{ display:table-cell; }
+        </style>
+    </head>
+
+    <body>
+        <h1>Enter conversion information:</h1>
+
+        <form action="./do_xelk.cgi" method="get">
+ 
+            <p><label for="origunits">Original units:</label>
+            <input id="origunits" type="text" name="origunits"></p>
+            <p><label for="convunits">New units:</label>
+            <input id="convunits" type="text" name="convunits"></p>
+            <p><label for="numunits">Amount of original units:</label>
+            <input id="numunits" type="text" name="numunits"></p>
+            <p><label for="convfactor">Conversion factor:</label>
+            <input id="convfactor" type = "text" name="convfactor" value="1.0"></p>
+            <br><input type="submit" value="Convert!">
+        </form>
+    </body>
+</html>
